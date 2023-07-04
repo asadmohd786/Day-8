@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+ 
+</head>
+<body>
+  
+
+  <input type="text" id="textInput" onkeyup="displayText()" />
+<p class="wrote" id="outputText"></p>
+
+<script>
+  function displayText() {
+    const inputElement = document.getElementById('textInput');
+    const outputElement = document.getElementById('outputText');
+    outputElement.textContent = inputElement.value;
+  }
+</script>
+
+</body>
+</html>
